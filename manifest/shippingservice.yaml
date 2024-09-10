@@ -48,7 +48,7 @@ spec:
               - all
           privileged: false
           # readOnlyRootFilesystem: true
-        image: public.ecr.aws/b1o7r7e0/shippingservice:f6e3e869657573ffdeeb79e37971116feb80e542
+        image: public.ecr.aws/b1o7r7e0/shippingservice:dfb88f7de082a5bd1f4087ed67511fba3a70d136
         ports:
         - containerPort: 50051
         env:
